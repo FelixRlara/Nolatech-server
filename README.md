@@ -1,14 +1,14 @@
-# Nolatech-Server:  registro y actualización de usuario con Express y NextJS 	🥃
+# Nolatech-Server:  user registration and update with Express and NextJS 	🥃
 
 This project is a web application that allows users to create an account, log in, and update their personal information. The application uses Express as the web server and NextJS as the client-side framework.
 
 The project is splitted into two apps, server app or backend and client app or frontend you can checkout the code of those projects here:
 
- - [Client App's  source
-   code]()
+  - [Client App's  source
+   code](https://github.com/FelixRlara/Nolatech-frontend/tree/main/)
    
  - [Server App's source   
-   code]()
+   code](https://github.com/FelixRlara/Nolatech-server/tree/main)
 ## Instalación 	🤌
 
 To install the project dependencies, run the following command in the terminal:
@@ -17,22 +17,23 @@ To install the project dependencies, run the following command in the terminal:
 
 ```
 
-
-
-## Does the project have testing? 🧐
-Of course! It has, you can run tests by using next commands
+## Running the app
 
 ```bash
-# unit tests
 
-$ npm  run  test
+# development
 
-# test coverage
+$ npm  run  start
 
-$ npm  run  test:cov
+# watch mode
+
+$ npm  run dev
+
 
 ```
+
+
 ## Is this project deployed😎 ?
 
 if you can get it in the following link
-[]()
+[Nolatech]()

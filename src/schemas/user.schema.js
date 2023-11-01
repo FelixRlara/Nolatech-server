@@ -22,7 +22,7 @@ export const updateUserSchema = z.object({
 
   password: z
     .string({ required_error: "contraseña invalida" })
-    .min(6, { message: "la contraseña debe contener minimo 8 caracteres" }).optional(true),
+    .min(6, { message: "la contraseña debe contener minimo 6 caracteres" }).optional(true),
 });
 
 export const getUserSchema = z.object({
