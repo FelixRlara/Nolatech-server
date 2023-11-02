@@ -7,14 +7,14 @@ import * as AuthControlller from "../controller/auth.controller.js";
 const AuthRouter = Router();
 
 AuthRouter.post(
-  '/register', 
-  validateSchema(schemas.registerSchema), 
+  '/register',
+  validateSchema(schemas.registerSchema),
   AuthControlller.register
 );
 
 AuthRouter.post(
   '/login',
-  validateSchema(schemas.loginSchema), 
+  validateSchema(schemas.loginSchema),
   AuthControlller.login
 );
 

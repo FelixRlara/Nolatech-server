@@ -15,8 +15,9 @@ const jwtMiddleware = (passport) => {
                 try {
 
                     const user = await User.findOne({ where: { id: jwtPayload.id } });
-
+            
                     if(user) return done(null,user);
+                    
                     return done(null,false);
 
                 }catch(err){

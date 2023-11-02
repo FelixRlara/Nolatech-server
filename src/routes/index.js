@@ -10,7 +10,7 @@ const AppRouter = app => {
     });
     
     app.use(`${defaultPath}/auth`, AuthRouter);
-    app.use(`${defaultPath}`, auth, UserRouter);
+    app.use(`${defaultPath}`, UserRouter);
 }
 
 export default AppRouter

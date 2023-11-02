@@ -9,7 +9,7 @@ The project is splitted into two apps, server app or backend and client app or f
    
  - [Server App's source   
    code](https://github.com/FelixRlara/Nolatech-server/tree/main)
-## Instalación 	🤌
+## Installation 	🤌
 
 To install the project dependencies, run the following command in the terminal:
 ```bash
@@ -31,9 +31,3 @@ $ npm  run dev
 
 
 ```
-
-
-## Is this project deployed😎 ?
-
-if you can get it in the following link
-[Nolatech]()

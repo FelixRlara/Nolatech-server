@@ -7,7 +7,7 @@ import * as schemas from "../schemas/user.schema.js";
 const UserRouter = Router();
 const path = "/user"
 UserRouter.get(path,
-// auth,
+auth,
 UserController.getUser
 );
 
